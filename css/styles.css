@@ -1,0 +1,202 @@
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+body{
+    font-family: 'Roboto',sans-serif ;
+}
+/* ==============Header========== */
+.page-header{
+    background-color: #FFFFFF;
+}
+.logo{
+    font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+/* NAVY BLUE */
+color: #2E2F42;
+}
+.logo-brand{
+color: #4D5AE5;;
+}
+.menu-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+/* NAVY BLUE */
+color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #404BBF;
+}
+.contact-list .link{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+/* SLATE */
+color: #434455;
+}
+.contact-list .link:hover,
+.contact-list .link:focus{
+    color: #404BBF;
+}
+/* =================header============== */
+/* =================Hero=============== */
+.hero{
+    background-color: #2E2F42;
+}
+.main-title{
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.order-btn{
+    font-family: inherit ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+.order-btn:hover,
+.order-btn:focus{
+background-color: #404BBF;
+}
+/* ===============hero=============== */
+/* ================Our features========= */
+.visually-hidden{
+    position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+.features-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */ 
+    color: #2E2F42;
+}
+.feateres-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+    
+}
+/* ================Our features========= */
+/* ===============What are we doing========== */
+.work-title{
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* NAVY BLUE */
+    color: #2E2F42; 
+}
+/* ================What are we doing========= */
+/* =============Our team=============== */
+.section-team{
+    background-color:  #E5E5E5;;
+
+}
+.team-member{
+    background-color: #FFFFFF;
+}
+.team-title{
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+.team-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+.team-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */ 
+    color: #434455;
+}
+/* =============Our team=============== */
+/* ===============Footer================= */
+.footer{
+    background-color: #2E2F42;
+}
+.footer-logo{
+    color: #F4F4FD;
+}
+.footer-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+/* CORNFLOWER */
+color: #E7E9FC;
+}
+/* ===============footer================= */
+/* ===============Example============= */
+.filter-btn{
+    font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+/* IRIS */
+color: #4D5AE5;
+background-color: #E7E9FC;
+cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+}
+.example-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+.example-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /* SLATE */
+    color: #434455;
+}
+/* ================exemple============= */
+
+
