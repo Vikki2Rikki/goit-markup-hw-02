@@ -1,3 +1,13 @@
+:root{
+    --primary-text-color: #434455 ;
+    --secondary-text-color: #E7E9FC;
+    --light-text-color: #F4F4FD;
+    --primary-title-color: #2E2F42;
+    --brand-color: #4D5AE5;
+    --accent-color: #404BBF;
+    --primary-background-color: #FFFFFF;
+    --light-background-color: #E5E5E5; 
+}
 .list{
     list-style: none;
 }
@@ -6,74 +16,93 @@
 }
 body{
     font-family: 'Roboto',sans-serif ;
+    background-color: var(--primary-background-color);
 }
-/* ==============Header========== */
-.page-header{
-    background-color: #FFFFFF;
-}
+/* ===========components=========== */
 .logo{
     font-family: 'Raleway', sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-/* NAVY BLUE */
-color: #2E2F42;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
 }
 .logo-brand{
-color: #4D5AE5;;
+    color: var(--brand-color);
+    }
+    .btn{
+        font-family: inherit ;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .title{
+        font-size: 36px;
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+.subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ==============Header========== */
+.header-logo{
+color: var(--primary-title-color);
 }
 .menu-link{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-/* NAVY BLUE */
-color: #2E2F42;
+color: var(--primary-title-color);
 }
 .menu-link:hover,
 .menu-link:focus{
-    color: #404BBF;
+    color: var(--accent-color);
 }
 .contact-list .link{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-/* SLATE */
-color: #434455;
+color: var(--primary-text-color);
 }
 .contact-list .link:hover,
 .contact-list .link:focus{
-    color: #404BBF;
+    color: var(--accent-color);
 }
-/* =================header============== */
+
 /* =================Hero=============== */
 .hero{
-    background-color: #2E2F42;
+    background-color: var(--primary-title-color);
 }
 .main-title{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--primary-background-color);
 }
 .order-btn{
-    font-family: inherit ;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--primary-background-color);
+    background-color: var(--brand-color);
 }
 .order-btn:hover,
 .order-btn:focus{
-background-color: #404BBF;
+background-color: var(--accent-color);
 }
-/* ===============hero=============== */
+
 /* ================Our features========= */
 .visually-hidden{
     position: absolute;
@@ -87,116 +116,64 @@ clip-path: inset(100%);
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
-.features-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    /* NAVY BLUE */ 
-    color: #2E2F42;
+.features-subtitle{
+    color: var(--primary-title-color);
 }
 .feateres-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* SLATE */
-    color: #434455;
-    
+    color: var(--primary-text-color);  
 }
-/* ================Our features========= */
+
 /* ===============What are we doing========== */
 .work-title{
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    /* NAVY BLUE */
-    color: #2E2F42; 
+    color: var(--primary-title-color); 
 }
-/* ================What are we doing========= */
+
 /* =============Our team=============== */
 .section-team{
-    background-color:  #E5E5E5;;
-
+    background-color: var(--light-background-color);
 }
 .team-member{
-    background-color: #FFFFFF;
+    background-color: var(--primary-background-color);
 }
 .team-title{
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 .team-subtitle{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 .team-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* SLATE */ 
-    color: #434455;
+    color: var(--primary-text-color);
 }
-/* =============Our team=============== */
+
 /* ===============Footer================= */
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--primary-title-color);
 }
 .footer-logo{
-    color: #F4F4FD;
+color: var(--light-text-color);
 }
-.footer-text{
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-/* CORNFLOWER */
-color: #E7E9FC;
+.footer-text {
+color: var(--secondary-text-color) ;
 }
-/* ===============footer================= */
-/* ===============Example============= */
+
+/* ============== Example ============= */
 .filter-btn{
-    font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-/* IRIS */
-color: #4D5AE5;
-background-color: #E7E9FC;
-cursor: pointer;
+border: 1px solid  var(--secondary-text-color);
+color: var(--brand-color);
+background-color: var(--secondary-text-color);
+
 }
 .filter-btn:hover,
 .filter-btn:focus{
-    color: #F4F4FD;
-    background-color: #4D5AE5;
+    color: var(--primary-background-color);
+    background-color: var(--brand-color);
 }
 .example-subtitle{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    /* NAVY BLUE */
-    color: #2E2F42;
+    color: var(--primary-title-color);
 }
 .example-text{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    /* SLATE */
-    color: #434455;
+    color: var(--primary-text-color);
 }
-/* ================exemple============= */
+
 
 
