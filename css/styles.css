@@ -16,6 +16,7 @@
 }
 body{
     font-family: 'Roboto',sans-serif ;
+    color: var(--primary-text-color);
     background-color: var(--primary-background-color);
 }
 /* ===========components=========== */
@@ -52,7 +53,7 @@ body{
     letter-spacing: 0.02em;
 }
 .text{
-    font-weight: 400;
+
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -77,7 +78,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--primary-text-color);
+
 }
 .contact-list .link:hover,
 .contact-list .link:focus{
@@ -92,6 +93,7 @@ color: var(--primary-text-color);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--primary-background-color);
 }
 .order-btn{
@@ -119,12 +121,11 @@ overflow: hidden;
 .features-subtitle{
     color: var(--primary-title-color);
 }
-.feateres-text{
-    color: var(--primary-text-color);  
-}
+
 
 /* ===============What are we doing========== */
 .work-title{
+    text-align: center;
     color: var(--primary-title-color); 
 }
 
@@ -136,14 +137,17 @@ overflow: hidden;
     background-color: var(--primary-background-color);
 }
 .team-title{
+    text-align: center;
     color: var(--primary-title-color);
 }
 .team-subtitle{
+    text-align: center;
     color: var(--primary-title-color);
 }
 .team-text{
-    color: var(--primary-text-color);
+    text-align: center;
 }
+
 
 /* ===============Footer================= */
 .footer{
@@ -171,9 +175,8 @@ background-color: var(--secondary-text-color);
 .example-subtitle{
     color: var(--primary-title-color);
 }
-.example-text{
-    color: var(--primary-text-color);
-}
+
+
 
 
 
