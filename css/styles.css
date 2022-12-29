@@ -74,10 +74,11 @@ color: var(--primary-title-color);
     color: var(--accent-color);
 }
 .contact-list .link{
-font-weight: 400;
+    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+color: var(--primary-text-color) ;
 
 }
 .contact-list .link:hover,
@@ -162,7 +163,7 @@ color: var(--secondary-text-color) ;
 
 /* ============== Example ============= */
 .filter-btn{
-border: 1px solid  var(--secondary-text-color);
+border: none;
 color: var(--brand-color);
 background-color: var(--secondary-text-color);
 
